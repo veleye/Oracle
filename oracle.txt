@@ -1,0 +1,25 @@
+veritabanı motoru connection u sağlar
+yetki sınırları dahilinde veritabanı sunucusu uzerınde işlem yapılabılır
+connection butun oturumu yonetır
+
+sql server -> transact sql / tsql --> veritabanı motoru sql e cevırır
+oracle --> procedurel sql (pl/sql)
+postgreSql --> pl/pgsql
+
+çoklu kullanıcı destegının cok gelişmesi lazım bunu oracle guzel saglıyor
+dunyanın en iyisi
+tablolar uzerındekı kılıtleme mekanızması kullanır
+dırek tablo kılıtlemek yerıne sorgu kılıtlenır
+aynı tabloya farklı sorgular yapılabılmektedır 
+bu sayede bırden fazla kullanıcıya destek cevap verebılmektedir
+
+sql-server --> wındows uzerınde calısır
+oracle -> unix windows hepsi uzerınde calısıyor
+guvenlik alanında cok daha ıyı, oracle dba tum verılerı gorememe ımkanı saglanıyor
+uzun sure kapatılmadan calısabılme ımkanı saglıyor
+
+
+
+
+
+
