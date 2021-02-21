@@ -57,3 +57,6 @@ arşiv redolog redologların depolanmıs halıdır.
 tablespace--> kullanıcılara ait nesnelerın mantıksal olarak tutuldugu yerdir.
 
 https://www.udemy.com/course/oracle-plsql-programlama/learn/lecture/59741#overview
+
+
+test developer...
