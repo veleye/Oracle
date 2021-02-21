@@ -18,8 +18,42 @@ oracle -> unix windows hepsi uzerınde calısıyor
 guvenlik alanında cok daha ıyı, oracle dba tum verılerı gorememe ımkanı saglanıyor
 uzun sure kapatılmadan calısabılme ımkanı saglıyor
 
+sql nedir?
+sql ansi tarafından standartlaştırıldı.
+butun dbms de ortak kullanılır.
+oracle-sqlserver sql standardına gore geliştirilmiştir
+oracle : pl/pgsql
+sqlserver : tsql
+hepsinin tabanı sql dir.
+
+veritabanı yönetim sistemler hepsi sql standartı destekler
+sql server ailesi: microsoft a ait
+veritabanı programı ibm db2 ve oracle en cok kullanılan bankalar
+
+pl/sql:
+veritabanı programlama dilidir.
+ada dilini referans almıstır.
+
+CREATE USER erkan IDENTIFIED BY oraclex
+
+
+ALTER USER erkan ACCOUNT UNLOCK
+
+GRANT CREATE TABLE, CREATE SESSION TO erkan
+
+CONNECT erkan/pass
+
+GRANT SELECT,INSERT,UPDATE ON 
 
 
 
+datafile veri dosylarının bulundugu dosyalar tablolar viewler hersey burada
+redolog transactıonları tutar, commit edilmiş/edilmemiş herhangi bir işlem yapıldıysa burada.
+control file verıtabanı genel yapısının bılgılerının tutuldugu yerıne
+parameter file sıstemın daha faydalı calısması ıcın spfile pfile 2 tur versıyon var
+password file authentıcate bılgılerı burada
+arşiv redolog redologların depolanmıs halıdır.
 
+tablespace--> kullanıcılara ait nesnelerın mantıksal olarak tutuldugu yerdir.
 
+https://www.udemy.com/course/oracle-plsql-programlama/learn/lecture/59741#overview
